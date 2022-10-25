@@ -29,3 +29,5 @@ images/Animals,Animal-Horse_3.jpg,110,921,1280,f1d555a3a694e514cbe72779dada3727
 images/Animals,Animal-Horse_4.jpg,110,960,1280,f1d555a3a694e514cbe72779dada3727
 images/Animals,Animal-Horse_5.jpg,110,853,1280,f1d555a3a694e514cbe72779dada3727
 images/Animals,Animal-Horse_6.jpg,110,853,1280,f1d555a3a694e514cbe72779dada3727
+images/Animals,Animal-Chicken_1.jpg,110,1280,853,f1d555a3a694e514cbe72779dada3727
+images/Animals,Animal-Chicken_2.jpg,110,1280,853,f1d555a3a694e514cbe72779dada3727
