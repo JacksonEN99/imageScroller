@@ -26,4 +26,4 @@ random
 #	but don't include any pictures with 'mouse', 'mule', or 'chicken' in the file name.
 ###############################################################
 
-Animals Animal
+index Animal
