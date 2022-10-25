@@ -1,0 +1,29 @@
+###########################################
+#INPUT PARAMETERS
+#NOTE: 'ratio' takes a value; i.e. ratio 0.66
+##	If 'ratio' is '>=' than the width/height, the further away the width and height are in size. If 'ratio' is '<=' than width/height, the closer the width and height are in size - more square shaped
+## 	If 'ratio' is '>=' than the height/width, the closer the height and width are in size - more square shaped. If 'ratio' is '<=' than height/width, the further away the height and width are in size.
+##	A 'ratio 0.66|0.75 <= width/height' is a good ratio
+##	A 'ratio 0.66 <= height/width' is a good ratio
+##	'ratio 0.66|0.68 <= width/height' means select all files with a width/height ratio '>=' 0.66 but '<=' 0.70
+##	'ratio 0.66|0.55 >= width/height' means select all files with a width/height ratio '<=' 0.66 but '>=' 0.55
+##	'ratio 0.66 <= width/height' means select all files with a width/height ratio '>=' 0.66 with no upper limit
+#NOTE: 'wide_only', 'tall_only' and 'random' just need to be uncommented
+
+#ratio 0.66|0.68 <= width/height
+random
+#wide_only
+#tall_only
+###########################################
+
+###############################################################
+#LEGEND: $output_file $search $remove(optional)
+# $output_file: What do you want to name the new HTML file
+# $search: Key words in the name of the picture you want to include in the new HTML file.
+# $remove: These are key words you do NOT want to be in the name of the picture file. This is optional
+# Example: Animals dog|cat|horse&pasture|cow mouse|mule|chicken
+#	You want to name the new HTML file 'Animals', which will include any pictures with 'dog', 'cat', 'cow', or 'horse' (with 'pasture' also in the name) in the name of the file, 
+#	but don't include any pictures with 'mouse', 'mule', or 'chicken' in the file name.
+###############################################################
+
+Animals Animal
