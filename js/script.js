@@ -115,11 +115,13 @@ class Slides {
 	// Clear/reset all the settings for 'nextImage()' images
 	// Needed to stop 'nextImages()' from showing up at the same time as 'currentImages()'
 	clearNextImage() {
-		clearInterval(this.increaseNextOpacityInterval);
-		clearInterval(this.decreaseNextOpacityInterval);
-		this.slides[this.nextIndex].style.display = "none";
-		this.slides[this.nextIndex].style.opacity = 0;
-		this.slides[this.nextIndex].classList.remove('moveUp');
+		if (this.increaseNextOpacityInterval) {
+			clearInterval(this.increaseNextOpacityInterval);
+			clearInterval(this.decreaseNextOpacityInterval);
+			this.slides[this.nextIndex].style.display = "none";
+			this.slides[this.nextIndex].style.opacity = 0;
+			this.slides[this.nextIndex].classList.remove('moveUp');
+		}
 	};
 	
 	start() {
